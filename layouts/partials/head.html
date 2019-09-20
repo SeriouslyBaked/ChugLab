@@ -1,0 +1,130 @@
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ $.Param "description" }}">
+    <meta name="author" content="{{ $.Param "author" }}">
+
+    <title>{{- $.Param "title" -}}</title>
+    <link rel="icon" href="/favicon.ico">
+
+    <!-- SEO Prefs -->
+    <meta name="robots" content="index,follow">
+    <meta name="referrer" content="origin-when-cross-origin">
+    {{- if isset .Site.Params "googlesiteverification" -}}<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}">{{- end -}}
+    {{- if isset .Site.Params "msvalidate" -}}<meta name="msvalidate.01" content="{{ .Site.Params.msValidate }}">{{- end -}}
+
+    <!-- Site Generator -->
+    <meta name="generator" content="Hugo {{ .Hugo.Version }}">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ "vendor/bootstrap/css/bootstrap.min.css" | relURL }}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="{{ "vendor/font-awesome/css/font-awesome.min.css" | relURL }}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+
+    <!-- MapQuest JavaScript and CSS required for their maps -->
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="{{ "css/grayscale.css" | relURL }}" rel="stylesheet">
+
+    <!-- MapQuest JavaScript and CSS required for their maps -->
+    <script type="text/javascript">
+      window.onload = function() {
+        L.mapquest.key = '2S1YpSFWyl5qAKBLHMNs9OTO6p2j7BRt';
+
+        var map = L.mapquest.map('map', {
+          center: [11.546766, 104.918742],
+          layers: L.mapquest.tileLayer('map'),
+          zoom: 17
+        });
+
+        L.marker([11.546766, 104.918742], {
+          icon: L.mapquest.icons.marker({
+            primaryColor: '#F7DC6F',
+            secondaryColor: '#2ECC71',
+            shadow: true,
+            size: 'sm'
+          }),
+          draggable: false
+        }).bindPopup('CHUG LAB').addTo(map);
+
+        L.marker([11.547213, 104.921912], {
+          icon: L.mapquest.icons.flag({
+            primaryColor: '#22407F',
+            secondaryColor: '#3B5998',
+            shadow: true,
+            size: 'sm',
+            symbol: 'Str93'
+          })
+        }).addTo(map);
+
+         L.marker([11.544143, 104.920172], {
+          icon: L.mapquest.icons.flag({
+            primaryColor: '#22407F',
+            secondaryColor: '#3B5998',
+            shadow: true,
+            size: 'sm',
+            symbol: 'Mao'
+          })
+        }).addTo(map);
+
+       L.marker([11.546456, 104.919406], {
+          icon: L.mapquest.icons.flag({
+            primaryColor: '#22407F',
+            secondaryColor: '#3B5998',
+            shadow: true,
+            size: 'sm',
+            symbol: 'St105'
+          })
+        }).addTo(map);
+
+        L.marker([11.546924, 104.918032], {
+          icon: L.mapquest.icons.flag({
+            primaryColor: '#22407F',
+            secondaryColor: '#3B5998',
+            shadow: true,
+            size: 'sm',
+            symbol: 'St113'
+          })
+        }).addTo(map);
+
+        L.marker([11.54675, 104.919138], {
+          icon: L.mapquest.icons.flag({
+            primaryColor: '#22407F',
+            secondaryColor: '#3B5998',
+            shadow: true,
+            size: 'sm',
+            symbol: 'St376'
+          })
+        }).addTo(map);
+
+        L.marker([11.547928, 104.918848], {
+          icon: L.mapquest.icons.flag({
+            primaryColor: '#22407F',
+            secondaryColor: '#3B5998',
+            shadow: true,
+            size: 'sm',
+            symbol: 'St360'
+          })
+        }).addTo(map);
+
+        L.marker([11.545468, 104.918841], {
+          icon: L.mapquest.icons.flag({
+            primaryColor: '#22407F',
+            secondaryColor: '#3B5998',
+            shadow: true,
+            size: 'sm',
+            symbol: 'St390'
+          })
+        }).addTo(map);
+
+        map.addControl(L.mapquest.control());
+      }
+    </script>
+
+    {{ template "_internal/google_analytics_async.html" . }}

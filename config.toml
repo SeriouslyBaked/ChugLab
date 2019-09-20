@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Chug Lab Metal Bar"
+theme = "hugograyscale"
+#googleAnalytics = ""
+[params]
+    # Provide some metadata for search and indexing services
+    description = "A small landing page for a bar"
+    author = "RunningStream and SeriouslyBaked"
