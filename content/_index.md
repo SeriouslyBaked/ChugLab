@@ -16,10 +16,10 @@ copyright: "Douglas McArthur & Le Chug Lab"
 #mapsapikey: xxx
 
 socialhandles:
-#   twitter: "stream_running"
+#    twitter: "stream_running"
 #    github: "runningstream"
 #    googplus: ""
-    instagram: "sugarmagnoliafarms"
+#    instagram: "sugarmagnoliafarms"
     facebook: "thechuglab"
 
 menu:
@@ -33,7 +33,8 @@ intro:
 
 beer:
     header: "Chug Lab Menu"
-    text: '<p>Craft Beer 2.50$<br>Canned Beer 1.50$<br>Spirit + Mixer 1.75$<br>Shots 1.75$<br>Soft Drink Can 1$</p>'
+    text: '<p>Craft Beer 2.50$<br>Canned Beer 1.50$<br>Spirit + Mixer 1.75$<br>Shots 1.75$<br>Soft Drink Can 1$<br><br>
+            Open from 5pm to 11:30pm<br>Happy Hour from 5pm to 7pm<br>Happy Hour Craft only 1.50$</p>'
 
 links:
     rename: "Links"
