@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://chuglab.netlify.com/"
 languageCode = "en-us"
 title = "Chug Lab Metal Bar"
 theme = "hugograyscale"

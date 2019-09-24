@@ -29,7 +29,7 @@ menu:
 
 intro:
     header: <img src="img/ChugGold.gif" alt="CHUG"><img src="img/LabGold.gif" alt="LAB">
-    text: 'Where real men go to drink real beer and listen to manly music - Chug Lab is more than just a bar, more than just music and more than just drinking!  At Chug Lab we play Metal and only Metal, while our long time resident Beer Brewer, brews and serves some amazing craft beers.'
+    text: 'While ChugLab has yet to open, we are all counting the days in eager anticipaction of a new revelation - the best beer and metal in town.<br>Where real men go to drink real beer and listen to manly music - Chug Lab is more than just a bar, more than just music and more than just drinking!  At Chug Lab we play Metal and only Metal, while our long time resident Beer Brewer, brews and serves some amazing craft beers.'
 
 beer:
     header: "Chug Lab Menu"
@@ -46,5 +46,6 @@ links:
 contact:
     header: "Contact Chug Lab"
     text: '<p>Contact Chug Lab on FaceBook or directly during opening hours.<br><br>Chug Lab is located in Street 376, House # 25A, in Phnom Penh, Cambodia.<br>
-            This is more or less half-way between street 105 and street 113 and not so far from neither Monivong (street 93) or Mao Tse Tsung, as can be seen on the interactive map below.</p>'
+            This is more or less half-way between street 105 and street 113 and not so far from neither Monivong (street 93) or Mao Tse Tsung, as can be seen on the interactive map below.<br>
+            Please keep in mind that there is very limited parking and besides, you drive like shit when you are drunk!</p>'
 ---
